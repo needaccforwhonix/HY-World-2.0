@@ -1,0 +1,717 @@
+[
+  {
+    "file": "DOCUMENTATION_zh.md",
+    "dependencies": [
+      "hyworld2.worldrecon.pipeline",
+      "WorldMirrorPipeline"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "License.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README_zh.md",
+    "dependencies": [
+      "hyworld2.worldrecon.pipeline",
+      "WorldMirrorPipeline"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "hyworld2.worldrecon.pipeline",
+      "WorldMirrorPipeline"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "DOCUMENTATION.md",
+    "dependencies": [
+      "hyworld2.worldrecon.pipeline",
+      "WorldMirrorPipeline"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldgen/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/panogen/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/gradio_app.py",
+    "dependencies": [
+      "time",
+      ".pipeline",
+      "datetime",
+      ".hyworldmirror.utils.visual_util",
+      "sys",
+      "glob",
+      "matplotlib.pyplot",
+      "pathlib",
+      "gc",
+      "WorldMirrorPipeline",
+      "PIL",
+      "cv2",
+      "argparse",
+      "spaces",
+      "torch.distributed",
+      "Image",
+      ".hyworldmirror.utils.save_utils",
+      "Path",
+      "torch",
+      "depth_to_world_coords_points",
+      "numpy",
+      ".hyworldmirror.utils.inference_utils",
+      "register_heif_opener",
+      "gradio",
+      "os",
+      ".hyworldmirror.models.utils.geometry",
+      "convert_predictions_to_glb_scene",
+      "io",
+      "timedelta",
+      "pillow_heif",
+      "shutil"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/pipeline.py",
+    "dependencies": [
+      "MlpFP32",
+      "time",
+      "datetime",
+      "snapshot_download",
+      "CameraHead",
+      ".hyworldmirror.models.layers.block",
+      "pathlib",
+      "render_interpolated_video",
+      "json",
+      "gc",
+      "load_file",
+      "WorldMirrorPipeline",
+      "Block",
+      "DPTHead",
+      "argparse",
+      "safetensors.torch",
+      ".hyworldmirror.models.models.worldmirror",
+      ".hyworldmirror.models.heads.camera_head",
+      ".hyworldmirror.utils.render_utils",
+      "torch.distributed",
+      "hyworld2.worldrecon.pipeline",
+      "huggingface_hub",
+      "omegaconf",
+      ".hyworldmirror.models.layers.mlp",
+      "transformer_auto_wrap_policy",
+      "Path",
+      "torch",
+      "functools",
+      "numpy",
+      "WorldMirror",
+      "torch.distributed.fsdp",
+      ".hyworldmirror.models.heads.dense_head",
+      "os",
+      "torch.distributed.fsdp.wrap",
+      "OmegaConf",
+      ".hyworldmirror.utils.inference_utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/comm/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/comm/communication.py",
+    "dependencies": [
+      "torch",
+      "torch.distributed"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/comm/padding.py",
+    "dependencies": [
+      "torch",
+      "torch.nn.functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/models/visual_transformer.py",
+    "dependencies": [
+      "minimal_pad_to_divisible",
+      "Tuple",
+      "typing",
+      "logging",
+      "PatchEmbed",
+      "RotaryPositionEmbedding2D",
+      "_All2All",
+      "vit_small",
+      "Block",
+      "..layers.rope",
+      "...comm.padding",
+      "..layers.vision_transformer",
+      "..layers",
+      "torch.distributed",
+      "..layers.block",
+      "random",
+      "torch",
+      "NormalizedRotaryPositionEmbedding2D",
+      "...comm.communication",
+      "torch.nn",
+      "checkpoint",
+      "..layers.norm_rope",
+      "torch.utils.checkpoint"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/models/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/models/rasterization.py",
+    "dependencies": [
+      "..utils.frustum",
+      "typing",
+      "calculate_unprojected_mask",
+      "..utils.geometry",
+      "Tensor",
+      "gsplat.strategy",
+      "gsplat.rendering",
+      "torch",
+      "rearrange",
+      "torch.nn",
+      "rasterization",
+      "numpy",
+      "depth_to_world_coords_points",
+      "einops",
+      "..utils",
+      "Dict",
+      "List",
+      "sh_utils",
+      "DefaultStrategy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/models/worldmirror.py",
+    "dependencies": [
+      ".rasterization",
+      "torch.nn.functional",
+      "typing",
+      "CameraHead",
+      "..heads.camera_head",
+      "PyTorchModelHubMixin",
+      "Block",
+      "DPTHead",
+      ".visual_transformer",
+      "..heads.dense_head",
+      "torch.distributed",
+      "huggingface_hub",
+      "..layers.block",
+      "normalize_depth",
+      "torch",
+      "VisualGeometryTransformer",
+      "..utils.priors",
+      "..heads.gs_head",
+      "torch.nn",
+      "Dict",
+      "..utils.camera_utils",
+      "GSFeatHead",
+      "GaussianSplatRenderer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/heads/gs_head.py",
+    "dependencies": [
+      ".dense_head",
+      "typing",
+      "List",
+      "_BaseDPTHead",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/heads/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/heads/camera_head.py",
+    "dependencies": [
+      "Block",
+      "torch.nn.functional",
+      "Mlp",
+      "torch",
+      "..layers",
+      "torch.nn",
+      "..layers.block"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/heads/dense_head.py",
+    "dependencies": [
+      "MlpFP32",
+      "torch.nn.functional",
+      "typing",
+      "..layers.mlp",
+      "..utils.grid",
+      "List",
+      "create_uv_grid",
+      "checkpoint",
+      "torch",
+      "torch.utils.checkpoint",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/__init__.py",
+    "dependencies": [
+      "SwiGLUFFN",
+      ".patch_embed",
+      "MemEffAttention",
+      ".swiglu_ffn",
+      ".attention",
+      "Mlp",
+      "PatchEmbed",
+      ".block",
+      "NestedTensorBlock",
+      ".mlp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/norm_rope.py",
+    "dependencies": [
+      "numpy",
+      "typing",
+      "Dict",
+      "Tensor",
+      "math",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/mlp.py",
+    "dependencies": [
+      "torch",
+      "Callable",
+      "Tensor",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/vision_transformer.py",
+    "dependencies": [
+      "torch.nn.init",
+      "Sequence",
+      "typing",
+      "Mlp",
+      "logging",
+      "math",
+      "torch",
+      "partial",
+      "checkpoint",
+      "trunc_normal_",
+      "torch.utils.checkpoint",
+      "torch.nn",
+      ".",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/block.py",
+    "dependencies": [
+      "nn",
+      "DropPath",
+      ".layer_scale",
+      "Attention",
+      "typing",
+      ".attention",
+      "Mlp",
+      "torch",
+      "Callable",
+      ".drop_path",
+      "LayerScale",
+      ".mlp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/swiglu_ffn.py",
+    "dependencies": [
+      "torch.nn.functional",
+      "typing",
+      "Tensor",
+      "torch",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/drop_path.py",
+    "dependencies": [
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/layer_scale.py",
+    "dependencies": [
+      "nn",
+      "typing",
+      "Tensor",
+      "torch",
+      "Union"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/rope.py",
+    "dependencies": [
+      "numpy",
+      "torch.nn.functional",
+      "typing",
+      "Dict",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/attention.py",
+    "dependencies": [
+      "nn",
+      "flash_attn_interface",
+      "flash_attn.flash_attn_interface",
+      "flash_attn_func",
+      "minimal_pad_to_divisible",
+      "torch.nn.functional",
+      "Tensor",
+      "torch",
+      "...comm.padding",
+      "...comm.communication",
+      "torch.distributed",
+      "_All2All"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/layers/patch_embed.py",
+    "dependencies": [
+      "itertools",
+      "torch.nn.functional",
+      "typing",
+      "Tensor",
+      "torch",
+      "Callable",
+      "collections.abc",
+      "torch.nn",
+      "repeat"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/priors.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/grid.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/sh_utils.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/geometry.py",
+    "dependencies": [
+      "Tuple",
+      "torch",
+      "numpy",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/rotation.py",
+    "dependencies": [
+      "torch",
+      "numpy",
+      "torch.nn.functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/act_gs.py",
+    "dependencies": [
+      "torch",
+      "einops",
+      "rearrange"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/camera_utils.py",
+    "dependencies": [
+      "torch",
+      ".rotation",
+      "quat_to_rotmat"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/models/utils/frustum.py",
+    "dependencies": [
+      "torch",
+      "einops"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/visual_util.py",
+    "dependencies": [
+      "Rotation",
+      "trimesh",
+      "numpy",
+      "cv2",
+      "Tuple",
+      "os",
+      "typing",
+      "requests",
+      "scipy.spatial.transform",
+      "copy",
+      "matplotlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/inference_utils.py",
+    "dependencies": [
+      "time",
+      "..models.utils.geometry",
+      "vector_to_camera_matrices",
+      "video_to_image_frames",
+      "pathlib",
+      "glob",
+      "json",
+      "onnxruntime",
+      "PIL",
+      ".video_utils",
+      "cv2",
+      "..models.utils.camera_utils",
+      "torchvision",
+      ".visual_util",
+      "concurrent.futures",
+      "Image",
+      "pycolmap",
+      "Path",
+      "torch",
+      "transforms",
+      "segment_sky",
+      "depth_to_world_coords_points",
+      "numpy",
+      "depth_edge",
+      ".geometry",
+      ".save_utils",
+      "os",
+      "ThreadPoolExecutor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/geometry.py",
+    "dependencies": [
+      "numpy",
+      "Number",
+      "Tuple",
+      "typing",
+      "numbers",
+      ".warnings",
+      "no_warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/warnings.py",
+    "dependencies": [
+      "warnings",
+      "functools",
+      "wraps"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/render_utils.py",
+    "dependencies": [
+      "numpy",
+      "moviepy.editor",
+      "Path",
+      "pathlib",
+      "torch",
+      "matplotlib.pyplot",
+      "tqdm",
+      "..models.models.rasterization",
+      "GaussianSplatRenderer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/video_utils.py",
+    "dependencies": [
+      "PIL",
+      "time",
+      "numpy",
+      "cv2",
+      "Image",
+      "subprocess",
+      "concurrent.futures",
+      "os",
+      "csv",
+      "ThreadPoolExecutor",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hyworld2/worldrecon/hyworldmirror/utils/save_utils.py",
+    "dependencies": [
+      "PIL",
+      "numpy",
+      "Image",
+      "os",
+      "Path",
+      "BytesIO",
+      "plyfile",
+      "pathlib",
+      "torch",
+      "io",
+      "PlyData",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
